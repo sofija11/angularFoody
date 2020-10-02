@@ -1,0 +1,185 @@
+[
+    {
+        "id":1,
+        "name":"Grilled Beef with potatoes",
+        "description":"Made with fresh potates and top beef",
+        "price":45,
+        "groupId":1,
+        "picture":"dish-3s.jpg"
+    },
+    {
+        "id":2,
+        "name":"Fruit Vanilla Ice Cream",
+        "description":"Rapsody of ice cream",
+        "price":56,
+        "groupId":2,
+        "picture":"dish-4.jpg"
+    },
+
+    {
+        "id":4,
+        "name":"Spicy Fried Rice",
+        "description":"Only for brave once",
+        "price":39,
+        "groupId":1,
+        "picture":"dish-6.jpg"
+    },
+    {
+        "id":5,
+        "name":"Mango Chili Chutney",
+        "description":"For brave once who loves spicy",
+        "price":40,
+        "groupId":1,
+        "picture":"dish-7.jpg"
+    },
+    {
+        "id":6,
+        "name":"Savory Watercress Chinese Pancakes",
+        "description":"Sweetest than yor dreams",
+        "price":38,
+        "groupId":2,
+        "picture":"dish-8.jpg" 
+    },
+    {
+        "id":7,
+        "name":"Soup With Vegetables And Meat",
+        "description":"Fits after hard work for energy",
+        "price":25,
+        "groupId":1,
+        "picture":"dish-9.jpg" 
+    },
+    {
+        "id":8,
+        "name":"Baked Lobster With A Garnish",
+        "description":"Directly from the sea",
+        "price":45,
+        "groupId":1,
+        "picture":"dish-11.jpg" 
+    },
+    {
+        "id":9,
+        "name":"Udon Noodles With Vegetables",
+        "description":"After hard work gives you energy",
+        "price":33,
+        "groupId":1,
+        "picture":"dish-10.jpg" 
+    },
+    {
+        "id":10,
+        "name":"Octopus with Vegetables",
+        "description":"Delicious rapsody",
+        "price":45,
+        "groupId":1,
+        "picture":"dish-5.jpg" 
+    },
+    {
+        "id":11,
+        "name":"Tiramisu",
+        "description":"The oldest recepie",
+        "price":20,
+        "groupId":2,
+        "picture":"dessert-6.jpg" 
+    },
+    {
+        "id":12,
+        "name":"Chocolate Cream",
+        "description":"In love with Chocolate recepie",
+        "price":40,
+        "groupId":2,
+        "picture":"dessert-7.jpg" 
+    },
+    {
+        "id":13,
+        "name":"Pufs",
+        "description":"Creamy and juicy",
+        "price":30,
+        "groupId":2,
+        "picture":"dessert-8.jpg" 
+    },
+    {
+        "id":14,
+        "name":"Sicilian Ricotta",
+        "description":"Mediteranian joy in taste",
+        "price":35,
+        "groupId":2,
+        "picture":"dessert-9.jpg" 
+    },
+    {
+        "id":15,
+        "name":"Mango FLoat",
+        "description":"Mediteranian joy in taste",
+        "price":30,
+        "groupId":2,
+        "picture":"dessert-10.jpg" 
+    },
+    {
+        "id":16,
+        "name":"Lemon Juice",
+        "description":"Always welcome for health",
+        "price":15,
+        "groupId":3,
+        "picture":"drink-1.jpg" 
+    },
+    {
+        "id":17,
+        "name":"Guava Juice",
+        "description":"Tropical drink",
+        "price":17,
+        "groupId":3,
+        "picture":"drink-2.jpg" 
+    },
+    {
+        "id":18,
+        "name":"Sprite",
+        "description":"Well known drink",
+        "price":10,
+        "groupId":3,
+        "picture":"drink-3.jpg" 
+    },
+    {
+        "id":19,
+        "name":"Coca Cola",
+        "description":"One and only",
+        "price":15,
+        "groupId":3,
+        "picture":"drink-4.jpg" 
+    },
+    {
+        "id":20,
+        "name":"Wine",
+        "description":"In vino veritas..",
+        "price":20,
+        "groupId":3,
+        "picture":"drink-5.jpg" 
+    },
+    {
+        "id":21,
+        "name":"Beer",
+        "description":"Perfect after long day at work",
+        "price":20,
+        "groupId":3,
+        "picture":"drink-4.jpg" 
+    },
+    {
+        "id":22,
+        "name":"Mango Juice",
+        "description":"Gives you a strength",
+        "price":15,
+        "groupId":3,
+        "picture":"drink-7.jpg" 
+    },
+    {
+        "id":23,
+        "name":"Strawberry Juice",
+        "description":"Who doesn't love strawberries?",
+        "price":15,
+        "groupId":3,
+        "picture":"drink-9.jpg" 
+    }
+
+
+
+
+
+
+]

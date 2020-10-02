@@ -1,0 +1,70 @@
+
+
+ 
+
+  <section class="ftco-section bg-light">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center heading-section ">
+          
+          <h2>Discover Our Exclusive Menu</h2>
+        </div>
+      </div>
+      <div class="row">
+      
+        <div class="col-md-12 dish-menu">
+          <div class="nav nav-pills justify-content-center "  id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            
+            <a (click)="getCategory(0)" class="nav-link py-3 px-4 active" id="v-pills-home-tab" data-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="true"> All</a>
+         
+          </div>
+          <div class="nav nav-pills justify-content-center " @fade *ngFor="let c of categories" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            
+            <a (click)="getCategory(c.id)" class="nav-link py-3 px-4 active" id="v-pills-home-tab" data-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="true"> {{c.name}}</a>
+         
+          </div>
+          
+          <input type="text"
+          [(ngModel)]="searchText"
+          placeholder="Search.."
+          
+       >
+          <div class="tab-content py-5" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="row" >
+                <div class="col-lg-12" *ngFor="let f of filter| search:searchText | paginate: { itemsPerPage: 4, currentPage: p}">
+                  <div class="menus d-flex  ">
+                    <div class="menu-img"   [style.background]="'url(assets/images/' + f.picture + ')'" ></div>
+                    <div class="text d-flex">
+                      <div class="one-half">
+                        <h3></h3>
+                        <h2><a [routerLink]="['/menu', f.id]">{{f.name}}</a></h2>
+                        <p><span>{{f.description}}</span></p>
+
+                      </div>
+                      <div class="one-forth">
+                        <span class="price">{{f.price}} $</span>
+                      </div>
+                    </div>
+                  </div>
+                 
+                </div>
+                <div class="row ">
+                  <pagination-controls
+                  (pageChange)="p = $event"
+                  
+                  >
+                  </pagination-controls>
+                </div>
+              </div>
+            </div><!-- END -->
+ 
+          </div>
+        
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  

@@ -1,0 +1,24 @@
+
+<div class="ftco-footer-widget mb-4">
+    <h2 class="ftco-heading-2">Newsletter</h2>
+    
+    <form (ngSubmit)="onSubmit(email)" class="subscribe-form" #email="ngForm">
+      <div class="form-group">
+       
+        <input type="text"
+         class="form-control"
+          placeholder="Enter your email"
+          ngModel
+          name="email"
+          email
+          required
+          #email="ngModel"
+          > <span class="error" *ngIf="!email.valid && email.touched">Email is required.</span><br/>
+        <input type="submit"
+         value="Subscribe"
+           class="btn btn-primary py-3 px-5"
+           [disabled]="!email.valid"
+           /> 
+      </div>
+    </form>
+  </div>
