@@ -5,7 +5,7 @@
         "description":"Made with fresh potates and top beef",
         "price":45,
         "groupId":1,
-        "picture":"dish-3s.jpg"
+        "picture":"dish-3.jpg"
     },
     {
         "id":2,
@@ -13,7 +13,7 @@
         "description":"Rapsody of ice cream",
         "price":56,
         "groupId":2,
-        "picture":"dish-4.jpg"
+        "picture":"dessert-1.jpg"
     },
 
     {
@@ -38,7 +38,7 @@
         "description":"Sweetest than yor dreams",
         "price":38,
         "groupId":2,
-        "picture":"dish-8.jpg" 
+        "picture":"dessert-2.jpg" 
     },
     {
         "id":7,
@@ -142,7 +142,7 @@
         "description":"One and only",
         "price":15,
         "groupId":3,
-        "picture":"drink-4.jpg" 
+        "picture":"cola.jpg" 
     },
     {
         "id":20,
@@ -174,7 +174,7 @@
         "description":"Who doesn't love strawberries?",
         "price":15,
         "groupId":3,
-        "picture":"drink-9.jpg" 
+        "picture":"drink-10.jpg" 
     }
 
 

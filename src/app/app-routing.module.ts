@@ -23,6 +23,10 @@ const routes: Routes = [
     path : 'menu/:id',
     component : OneMeniFoodComponent
   },
+  {
+    path : '**',
+    redirectTo : ''
+  }
   
 ];
 

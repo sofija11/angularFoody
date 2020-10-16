@@ -1,5 +1,10 @@
-.img .menu-img {
-    
+.img.menu-img {
+    background-size: 30px;
     background-repeat: no-repeat;
     background-position: center center;
+}
+.menu-img{
+    width: 50px;
+  height: 50px;
+  background-size: contain;
 }

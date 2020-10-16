@@ -46,7 +46,7 @@ export class OneMeniFoodComponent implements OnInit {
         this.categories = Response;
         console.log(this.categories);
         this.category = this.categories.find(element => element.id === this.menu.groupId);
-        console.log(this.category);
+        console.log(this.category.name);
       
         
       },
